@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Insert title here</title>
+</h:head>
+<h:body>
+	<div style="margin-left: 995px; margin-top: 100px;">
+		<h:commandButton value="testando" />
+	</div>
+
+	<p:dataTable id="servidores" value="movimentao" var="movimentacao"
+		rows="20" Elements="true">
+
+		<f:facet name="paginatorTopLeft">
+			<div jsf:id="botoes" jsf:rendered="notao">
+				<p:commandButton value="Solicitar ao SCG" a
+					style="margin-right:-145.3px;">
+				</p:commandButton>
+			</div>
+
+
+			<!--   .  -->
+
+		</f:facet>
+
+
+
+		<!--                 -->
+
+	</p:dataTable>
+
+
+
+
+</h:body>
+
+</html>
